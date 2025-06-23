@@ -1,4 +1,4 @@
-name: Cypress E2E
+name: Cypress E2E Test
 
 on:
   push:
@@ -23,4 +23,4 @@ jobs:
       run: npm install
 
     - name: Run Cypress tests
-      run: npm test
+      run: npx cypress run
